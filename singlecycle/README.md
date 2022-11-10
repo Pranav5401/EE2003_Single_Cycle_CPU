@@ -38,9 +38,3 @@ The file `dump.s` in the top folder also shows an example of assembly code that 
 $ riscv32-unknown-elf-gcc -c dump.s
 $ riscv32-unknown-elf-objdump -d -Mnumeric,no-aliases dump.o
 ```
-
-### Grading
-
-This and the previous assignment (ALU + L/S) use the same test setup.  Therefore if you submit the same code for both that is perfectly fine.  However, if you have trouble implementing branching, you are advised to ensure that the Load/Store is correctly implemented first.
-
-Demonstrate the working simulation first to your TA, and then move on to the hardware demo on FPGA.  Both are required and you will need to explain the functioning of your code to the TA.
